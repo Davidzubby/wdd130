@@ -1,0 +1,59 @@
+body {
+    font-family: tahoma, sans-serif;
+    line-height: 1.6;
+
+}
+
+header {
+    display: block;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb (0 0 0 /10%);
+    padding: 10px;
+    background-color: #abe;
+    font-size: .9rem;
+}
+
+h2 {
+    border-bottom: 1px solid #222
+}
+
+section p {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px 20px 0;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: small;
+
+}
