@@ -1,6 +1,6 @@
 body {
     font-family: tahoma, sans-serif;
-    line-height: 1.6;
+    line-height: 1.9;
 
 }
 
@@ -35,19 +35,25 @@ section {
     border: 1px solid rgb (0 0 0 /10%);
     padding: 10px;
     background-color: #abe;
+    color: black;
     font-size: .9rem;
 }
 
 h2 {
-    border-bottom: 1px solid #222
+    border-bottom: 2px solid #222
 }
 
 section p {
     margin: 10px;
+    color: grey;
+
 }
 
 ul {
     margin: 10px 20px 0;
+    border: 3px;
+    color: black;
+
 }
 
 footer {
@@ -55,5 +61,6 @@ footer {
     color: white;
     background-color: black;
     font-size: small;
+    font-style: italic;
 
 }
