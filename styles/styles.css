@@ -47,8 +47,8 @@ aside img {
 }
 
 footer {
-    margin-top: 10px;
-    border-top: 10px;
+    margin-top: 15px;
+    border-top: 1px solid #000;
     text-align: center;
     color: black;
     background-color: grey;
