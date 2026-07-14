@@ -9,10 +9,14 @@ nav a {
     padding: 10px;
 }
 
+main {
+    max-width: 840px;
+}
+
 main img {
-    max-width: 200px;
+    width: 200px;
     height: auto;
-    border: 10px;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 10px;
 
@@ -20,11 +24,11 @@ main img {
 
 h1 {
     color: darkblue;
-    font-size: 10px;
+    font-size: 2rem;
 }
 
 img {
-    width: 150;
+    width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -33,7 +37,7 @@ img {
 }
 
 p {
-    padding: 0;
+    padding: 10px;
 }
 
 aside {
