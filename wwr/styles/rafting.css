@@ -2,17 +2,17 @@
     --primary-color: #0D47A1;
     /* Dark Blue */
     --secondary-color: darkgray;
-    /* Light Blue */
+    /* Dark Gray */
     --accent1-color: darkgray;
-    /* Gold */
+    /* Dark Gray */
     --accent2-color: rgb(241, 230, 230);
     /* Light Gray */
     --heading-color: #FFFFFF;
     /* white */
     --text-color: #333333;
-    /* Dark Gray */
+    /* Black */
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvatica, sans-serif;
+    --body-font: Arial, Helvetica, sans-serif;
 
 }
 
@@ -20,6 +20,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+
 }
 
 header img {
@@ -76,7 +83,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -90,12 +97,20 @@ h1 {
 .hero article img {
     float: right;
     width: 200px;
-    position: relative;
+    margin-left: 20px;
+}
 
+.hero article {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .8);
 }
 
 .hero p {
     background-color: var(--secondary-color);
-    line-height: 2.0;
+    line-height: 2;
 
 }
