@@ -1,18 +1,12 @@
 :root {
     --primary-color: #0D47A1;
-    /* Dark Blue */
     --secondary-color: darkgray;
-    /* Dark Gray */
     --accent1-color: darkgray;
-    /* Dark Gray */
     --accent2-color: rgb(241, 230, 230);
-    /* Light Gray */
-    --heading-color: #FFFFFF;
-    /* white */
+    --heading-color: red;
     --text-color: #333333;
-    /* Black */
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif;
+    --body-font: Arial, Helvatica, sans-serif;
 
 }
 
@@ -26,6 +20,7 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
+    color: var(--heading-color);
 
 }
 
